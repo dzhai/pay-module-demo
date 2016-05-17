@@ -1,6 +1,6 @@
 package com.github.dzhai.pay.payment.service.impl;
 
-public class UnionpayPaymentService2 extends AbstractPaymentService {
+public class UnionpayPCPaymentServiceImpl extends AbstractPaymentService {
 
 	@Override
 	public void payProcess() {

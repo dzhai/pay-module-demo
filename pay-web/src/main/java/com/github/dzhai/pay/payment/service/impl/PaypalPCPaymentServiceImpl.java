@@ -1,6 +1,6 @@
 package com.github.dzhai.pay.payment.service.impl;
 
-public class WeChatPaymentService2 extends AbstractPaymentService {
+public class PaypalPCPaymentServiceImpl extends AbstractPaymentService {
 
 	@Override
 	public void payProcess() {

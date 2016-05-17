@@ -1,8 +1,10 @@
 package com.github.dzhai.pay.payment.service;
 
+import com.github.dzhai.pay.dto.PaymentResultData;
+
 public interface IPaymentService {
 
-	void createProcess();
+	PaymentResultData createProcess();
 
 	void payProcess();
 
