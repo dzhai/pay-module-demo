@@ -4,6 +4,8 @@ package com.github.dzhai.pay.common;
  * 支付客户端类型  pc 移动
  * 
  * @author dzhai
+ * 
+ * TODO 定义不是很合理，比如支付宝下有很多种支付方式
  *
  */
 public enum PayClientType {

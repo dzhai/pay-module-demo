@@ -12,7 +12,7 @@ public interface IPayDubboService {
 	 * @param data
 	 * @return
 	 */
-	PaymentResultData pay(PaymentData data);
+	PaymentResultData paycreate(PaymentData data);
 	
 	/**
 	 * 退款内部请求

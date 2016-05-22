@@ -1,35 +1,39 @@
 package com.github.dzhai.pay.payment.service.impl;
 
+import com.github.dzhai.pay.dto.PaymentResultData;
+
 public class AlipayPCPaymentServiceImpl extends AbstractPaymentService {
 
 	@Override
-	public void payProcess() {
+	public void pay() {
 		// TODO Auto-generated method stub
 
 	}
 
 	@Override
-	public void refundProcess() {
+	public void refund() {
 		// TODO Auto-generated method stub
 
 	}
 
 	@Override
-	public void notifyProcess() {
+	public void paynotify() {
 		// TODO Auto-generated method stub
 
 	}
 
 	@Override
-	public void returnProcess() {
+	public void payreturn() {
 		// TODO Auto-generated method stub
 
 	}
 
 	@Override
-	public void createAfterProcess() {
+	public void paycreateAfter(PaymentResultData data) {
 		// TODO Auto-generated method stub
-
+		
 	}
+
+	
 
 }

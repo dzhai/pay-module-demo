@@ -6,11 +6,11 @@ import com.github.dzhai.pay.payment.service.IPaymentService;
 public abstract class AbstractPaymentService implements IPaymentService {
 
 	
-	public abstract void createAfterProcess();
+	public abstract void paycreateAfter(PaymentResultData data);
 	
-	public PaymentResultData createProcess(){
-		
-		
+	public PaymentResultData paycreate(){
+		PaymentResultData data=new PaymentResultData();
+		paycreateAfter(data);
 		return null;
 		
 	}

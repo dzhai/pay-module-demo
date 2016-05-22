@@ -14,7 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 public class PayDubboServiceImpl implements IPayDubboService {
 	
 	@Override
-	public PaymentResultData pay(PaymentData data) {
+	public PaymentResultData paycreate(PaymentData data) {
 		log.info("----");
 		Integer paymethod=data.getPayMehtod();		
 		Integer payClientType=data.getPayClientType();
@@ -22,7 +22,7 @@ public class PayDubboServiceImpl implements IPayDubboService {
 			paymethod= PayMethod.UNIONPAY.getId();
 		}
 		IPaymentService paymentService=PaymentUtils.getPaymentService(paymethod, payClientType);
-		PaymentResultData resultData=paymentService.createProcess();
+		PaymentResultData resultData=paymentService.paycreate();
 		return resultData;
 	}
 

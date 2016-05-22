@@ -25,7 +25,7 @@
 		<springframework.version>4.2.6.RELEASE</springframework.version>
 		<slf4j.version>1.7.7</slf4j.version>
 		<logback.version>1.1.2</logback.version>
-		<jackson.version>2.4.4</jackson.version>
+		<jackson.version>1.9.2</jackson.version>
 		<commons-codec.version>1.10</commons-codec.version>
 		<javaee-web-api.version>7.0</javaee-web-api.version>
 		<junit.version>4.12</junit.version>
@@ -97,13 +97,13 @@
 				</exclusions>
 			</dependency>
 			<dependency>
-				<groupId>com.fasterxml.jackson.core</groupId>
-				<artifactId>jackson-core</artifactId>
+				<groupId>org.codehaus.jackson</groupId>
+				<artifactId>jackson-core-lgpl</artifactId>
 				<version>${jackson.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.fasterxml.jackson.core</groupId>
-				<artifactId>jackson-databind</artifactId>
+				<groupId>org.codehaus.jackson</groupId>
+				<artifactId>jackson-mapper-lgpl</artifactId>
 				<version>${jackson.version}</version>
 			</dependency>
 			<dependency>

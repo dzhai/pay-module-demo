@@ -4,13 +4,13 @@ import com.github.dzhai.pay.dto.PaymentResultData;
 
 public interface IPaymentService {
 
-	PaymentResultData createProcess();
+	PaymentResultData paycreate();
 
-	void payProcess();
+	void pay();
 
-	void refundProcess();
+	void refund();
 
-	void notifyProcess();
+	void paynotify();
 
-	void returnProcess();
+	void payreturn();
 }
